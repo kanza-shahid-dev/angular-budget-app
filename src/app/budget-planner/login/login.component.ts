@@ -33,7 +33,6 @@ export class LoginComponent implements OnInit {
   }
   login() {
     if (this.loginForm.valid) {
-      alert('valid');
       this.router.navigate(['/budget-planner/dashboard']);
     }
   }
